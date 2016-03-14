@@ -1,7 +1,15 @@
 
 
 class Person
-  def initialize(name = "Beyonce")
+  def initialize(name)
     @name = name
+  end
+
+  def name=(name)
+    name = "Beyonce"
+  end
+
+  def name
+    @name
   end
 end
