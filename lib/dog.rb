@@ -24,10 +24,10 @@ class Dog
 end
 
 fido = Dog.new("Fido", "Pug")
-spot = Dog.new("Spot")
+pepper = Dog.new("Pepper")
 
 puts fido.name
 puts fido.breed
 
-puts spot.name
-puts spot.breed
+puts pepper.name
+puts pepper.breed
