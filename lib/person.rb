@@ -1,8 +1,7 @@
 class Person
 
-def initialize(name)
-  @name = name
-
-end
+  def initialize(n)
+    @name = n
+  end
 
 end
