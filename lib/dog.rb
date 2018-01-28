@@ -4,6 +4,4 @@ class Dog
     @name = dog_name
     @breed = breed_name
   end
-
-
 end
