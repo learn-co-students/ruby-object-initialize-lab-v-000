@@ -21,6 +21,3 @@ def breed
   @breed
 end
 end
-
-fido = Dog.new("Tim", "Pittyyyyy")
-fido.name
