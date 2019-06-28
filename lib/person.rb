@@ -1,9 +1,10 @@
 class Person 
-  def initialize(name)
+    attr_accessor :name 
+    
+     def initialize(name)
     @name = name 
   end 
-  
-  def name 
-    @name 
-  end 
 end 
+
+beyonce = Person.new("Beyonce")
+puts beyonce.name 
