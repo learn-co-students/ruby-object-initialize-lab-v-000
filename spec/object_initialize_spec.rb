@@ -1,3 +1,7 @@
+require 'spec_helper.rb'
+require_relative '../lib/person.rb'
+require_relative '../lib/dog.rb'
+
 describe 'Person' do
   describe '#initialize' do
     it 'sets the name of the person in an instance variable @name' do
